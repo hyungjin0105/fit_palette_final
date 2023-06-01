@@ -12,7 +12,7 @@ class MainHome extends StatefulWidget {
 }
 
 class _MainHomeState extends State<MainHome> {
-  var _currentIndex = 0;
+  var _currentIndex = 3;
   final List<Widget> _pages = [
     MyWeight(),
     Profile(),

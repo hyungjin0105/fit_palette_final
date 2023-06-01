@@ -8,7 +8,7 @@ import 'package:fit_palette2/Page/Home/MyWeight.dart';
 import 'package:fit_palette2/Page/Home/Home.dart';
 import 'package:fit_palette2/Page/Home/Profile.dart';
 import 'package:fit_palette2/Page/Home/Routine.dart';
-
+import 'package:fit_palette2/Page/MainHome.dart';
 
 import 'package:fit_palette2/Page/Join/join1.dart';
 import 'package:fit_palette2/Page/Join/join2.dart';
@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
         '/Profile': (context) => Profile(),
         '/Routine' :(context) => Routine(),
         '/Home' : (context) => Home(),
+        '/MainHome' : (context) => MainHome(),
         '/join1' : (context) => Join1Page(), 
         '/join2' : (context) => Join2Page(), 
         '/join3' : (context) => Join3Page() 
