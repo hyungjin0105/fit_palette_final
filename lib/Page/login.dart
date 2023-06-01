@@ -22,7 +22,7 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(height: 300.0),
             Column(
               children: <Widget>[
-                Image.asset('assets/logo.png', height:50),
+                Image.asset('assets/images/logo.png', height:50),
                 const SizedBox(height: 16.0),
               ],
             ),
@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Row(
                   children: [
                     Container(
-                      child: Image.asset('assets/google.png', height:50, fit: BoxFit.cover,)
+                      child: Image.asset('assets/images/google.png', height:50, fit: BoxFit.cover,)
                     ),
                     const SizedBox(width: 30),
                     Flexible(
